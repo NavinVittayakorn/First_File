@@ -1,3 +1,4 @@
+# Functional Calculator
 print("welcome to my fully functional calculator")
 print("select your operation")
 print("1 = Addition")
@@ -24,4 +25,5 @@ elif choice =="4":
         print("Error, cannot be devide by zero")
 else:
     print("Invalid value")
+
 
