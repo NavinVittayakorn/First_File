@@ -37,26 +37,27 @@ def calculate():
     except Exception as e:
         label_result.config(text=f"result: {result}")
 root = tk.Tk()
-root.geometry("800x500")
+root.geometry("800x600")
 root.title("Calculator GUI")
 
-tk.Label(root, text="First Number: ").pack()
+tk.Label(root, text="Welcome! to my First GUI Calculator", font=("Times new roman", 35)).pack()
+
+tk.Label(root, text="First Number: ", font=("Times new roman",15)).pack()
 entry1 = tk.Entry(root)
 entry1.pack()
 
-tk.Label(root,text="Second Number (For opreation needing 2 numbers): ").pack()
+tk.Label(root,text="Second Number (For opration needing 2 numbers): ", font=("Times new roman",15)).pack()
 entry2 = tk.Entry(root)
 entry2.pack()
 
-tk.Label(root,text="Operation(+, -, *, /, sqrt, root, pi)").pack()
+tk.Label(root,text="Operation(+, -, *, /, sqrt, root, pi)", font=("Times new roman",15)).pack()
 opration = tk.Entry(root)
 opration.pack()
 
-btn = tk.Button(root,text="Calculate", command=calculate)
+btn = tk.Button(root,text="Calculate",font=("Times new roman",15), command=calculate)
 btn.pack()
 
-label_result = tk.Label(root,text="Result: ")
+label_result = tk.Label(root,text="Result: ", font=("Times new roman", 15))
 label_result.pack()
 
 root.mainloop()
-
