@@ -7,4 +7,4 @@ A simple calculator built in a Python program that can perform addition, subtrac
 # Extended calculator
 A calculator built into a Python program that can perform square roots, nth roots, and pi multiple times.
 ## How to run the extended calculator
-1. Copy the repository - 
+1. Copy the repository - [Extended Calculator.py]
