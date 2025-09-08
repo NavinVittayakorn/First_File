@@ -1,5 +1,5 @@
 # simple Calculator
-print("welcome to my fully functional calculator")
+print("welcome to my simple calculator")
 print("select your operation")
 print("1 = Addition")
 print("2 = Subtraction")
@@ -25,6 +25,7 @@ elif choice =="4":
         print("Error, cannot be devide by zero")
 else:
     print("Invalid value")
+
 
 
 
