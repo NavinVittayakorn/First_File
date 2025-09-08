@@ -40,7 +40,7 @@ root = tk.Tk()
 root.geometry("800x600")
 root.title("Calculator GUI")
 
-tk.Label(root, text="Welcome! to my First GUI Calculator", font=("Times new roman", 35)).pack()
+tk.Label(root, text="Welcome! to my First GUI Calculator", font=("Times new roman", 35)).pack(padx=30, pady=30)
 
 tk.Label(root, text="First Number: ", font=("Times new roman",15)).pack()
 textbock1 = tk.Text(root, height=2)
@@ -61,5 +61,6 @@ label_result = tk.Label(root,text="Result: ", font=("Times new roman", 15))
 label_result.pack()
 
 root.mainloop()
+
 
 
