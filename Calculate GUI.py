@@ -37,13 +37,14 @@ def calculate():
     except Exception as e:
         label_result.config(text=f"result: {result}")
 root = tk.Tk()
+root.geometry("800x500")
 root.title("Calculator GUI")
 
 tk.Label(root, text="First Number: ").pack()
 entry1 = tk.Entry(root)
 entry1.pack()
 
-tk.Label(root,text="Second Number (for opreation needing 2 numbers): ")
+tk.Label(root,text="Second Number (For opreation needing 2 numbers): ").pack()
 entry2 = tk.Entry(root)
 entry2.pack()
 
@@ -58,3 +59,4 @@ label_result = tk.Label(root,text="Result: ")
 label_result.pack()
 
 root.mainloop()
+
