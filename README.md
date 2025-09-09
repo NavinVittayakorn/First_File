@@ -24,7 +24,6 @@ A calculator built into a Python program that can perform square roots, nth root
 # Calculator GUI
 A calculator build into a Python program using tkinter to make a GUI. The Calculator can perform addition, subtraction,<br> multiplication, devide, Square root, nth root and pi.
 ## How to run the Calculator GUI
-1. Copy the repository - [Calculator GUI]
-(https://github.com/NavinVittayakorn/First_File/blob/f819b06984d24a2a752948e79b07c15ba74b4de6/Calculator%20GUI.py)
+1. Copy the repository - [Calculator GUI.py] (https://github.com/NavinVittayakorn/First_File/blob/f819b06984d24a2a752948e79b07c15ba74b4de6/Calculator%20GUI.py) 
 2. Open the folder and run using Python
 ## Feature
